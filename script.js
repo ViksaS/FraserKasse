@@ -7,7 +7,7 @@
       const isMember = document.getElementById('isMember').checked;
       let finalPrice = price;
 
-      if (isMember && (name.includes("Fass") || name === 'Kaffee' || name === ''  || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' || name === '' )) {
+      if (isMember && (name.includes("Fass") || name.includes("x") )) {
         finalPrice = price * 0.9
         ;
       }
